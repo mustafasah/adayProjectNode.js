@@ -1,0 +1,40 @@
+{
+  "name": "ik-aday-projesi",
+  "version": "1.0.0",
+  "description": "İnsan kaynakları için, aday ve çalışan takip sistemi",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "insan",
+    "kaynakları",
+    "uygulaması",
+    "aday",
+    "takip",
+    "ik proje",
+    "iş veren takip",
+    "aday sistemi"
+  ],
+  "author": "Faruk ŞAHİN",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.7",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.17",
+    "slugify": "^1.4.6",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {
+
+  }
+}
